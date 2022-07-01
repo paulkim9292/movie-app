@@ -7,11 +7,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+        <Route path={`/`} element={<Home />} />
         <Route
-          path={`${process.env.PUBLIC_URL}/movie/:id`}
+          path={`/movie/:id`}
           element={<Detail />}
         />
       </Routes>
