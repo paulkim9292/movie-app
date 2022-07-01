@@ -1,6 +1,6 @@
 # movie-app
 
-https://paulkim9292.github.io/react-todo/
+https://paulkim9292.github.io/movie-app/
 
 React로 만든 영화 정보 모음 웹사이트입니다.
 
